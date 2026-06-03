@@ -153,8 +153,8 @@ export const botConfig = {
   // =========================
   // ECONOMY SETTINGS
   // =========================
-  economy: {
-    currency: {
+  economy: {natsuki
+    currency: {natsukidollars
       // Currency display name.
       name: "natsukidollar",
       // Plural display name.
