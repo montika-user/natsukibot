@@ -6,7 +6,7 @@ export const botConfig = {
   // BOT PRESENCE (what users see under the bot name)
   // =========================
   // `status` options:
-  // - "online"    = green dot
+  // - "w-where am i."    = green dot
   // - "idle"      = yellow moon
   // - "dnd"       = red do-not-disturb
   // - "invisible" = appears offline
@@ -89,7 +89,7 @@ export const botConfig = {
     colors: {
       // Main brand colors.
       primary: "#FFBCD9", 
-      secondary: "#2F3136", 
+      secondary: "#FFBCD9", 
 
       // Standard status colors for success/error/warning/info messages.
       success: "#57F287", 
@@ -156,32 +156,32 @@ export const botConfig = {
   economy: {
     currency: {
       // Currency display name.
-      name: "coins",
+      name: "natsukidollar",
       // Plural display name.
-      namePlural: "coins",
+      namePlural: "natsukidollars",
       // Currency symbol shown in balances.
-      symbol: "$",
+      symbol: "¥",
     },
 
     // Starting balance for new users.
-    startingBalance: 0,
+    startingBalance: 500,
 
     // Maximum bank amount before upgrades (if upgrades are used).
-    baseBankCapacity: 100000,
+    baseBankCapacity: 1000000,
 
     // Daily reward amount.
-    dailyAmount: 100,
+    dailyAmount: 250,
 
     // Work command random payout range.
     workMin: 10,
-    workMax: 100,
+    workMax: 1000,
 
     // Beg command random payout range.
     begMin: 5,
-    begMax: 50,
+    begMax: 10,
 
     // Chance to succeed when robbing (0.4 = 40%).
-    robSuccessRate: 0.4,
+    robSuccessRate: 0.2,
 
     // Jail time after failed rob (milliseconds).
     // 3600000 = 1 hour.
@@ -359,15 +359,15 @@ export const botConfig = {
     // Welcome template posted when a user joins.
     // Placeholders: {user}, {server}, {memberCount}
     defaultWelcomeMessage:
-      "Welcome {user} to {server}! We now have {memberCount} members!",
+      "Welcome {user} to {server}! we now have {memberCount} losers!",
     // Goodbye template posted when a user leaves.
     // Placeholders: {user}, {memberCount}
     defaultGoodbyeMessage:
-      "{user} has left the server. We now have {memberCount} members.",
+      "{user} is the biggest loser. We now have {memberCount} losers.",
     // Channel ID for welcome messages.
-    defaultWelcomeChannel: null,
+    defaultWelcomeChannel: 1511588617095745667,
     // Channel ID for goodbye messages.
-    defaultGoodbyeChannel: null,
+    defaultGoodbyeChannel: 1511588641280102450,
   },
 
   // =========================
@@ -421,7 +421,7 @@ export const botConfig = {
   // GENERIC BOT MESSAGES
   // =========================
   messages: {
-    noPermission: "You do not have permission to use this command.",
+    noPermission: "I-it’s not like I want you to keep on replying to you.",
     cooldownActive: "Please wait {time} before using this command again.",
     errorOccurred: "An error occurred while executing this command.",
     missingPermissions:
